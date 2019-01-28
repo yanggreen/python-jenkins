@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="3" time="0.147"><testcase classname="test" file="test.py" line="2" name="test_sum" time="0.009292125701904297"><failure message="assert 9 == 10
+ +  where 9 = sum(4, 5)">def test_sum():
+&gt;       assert sum(4, 5) == 10
+E       assert 9 == 10
+E        +  where 9 = sum(4, 5)
+
+test.py:4: AssertionError</failure></testcase><testcase classname="test" file="test.py" line="5" name="test_sum_positive_ok" time="0.0009696483612060547"></testcase><testcase classname="test" file="test.py" line="8" name="test_sum_positive_fail" time="0.0005323886871337891"></testcase></testsuite>
